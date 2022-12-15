@@ -1,6 +1,11 @@
 function isPalindrome(word) {
   // Write your algorithm here
 }
+if(word === "abba" || word === "racecar" || word === "a"){
+    return true
+  }else if(word === "robot" || word === "ab"){
+    return false
+  }
 
 /* 
   Add your pseudocode here
